@@ -1,0 +1,95 @@
+.navbar{
+    box-shadow: 1px 5px 5px rgb(195, 195, 195);
+    background-color: rgb(225, 230, 220);
+    height: 4rem;
+    
+}
+
+body{
+    background-color: rgb(228, 234, 234);
+}
+.second-row{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+ li{
+    cursor: pointer;
+    font-size: 18px;
+    margin: 0px 15px;
+    font-weight: 500;
+    color: rgb(87, 87, 87);
+}
+li:hover{
+    text-decoration: underline;
+}
+
+
+.buttons{
+    display: flex;
+    /* background-color: aqua; */
+    justify-content: space-between;
+}
+
+.buttons .btn{
+    background-color: rgba(33, 46, 77, 0.84);
+    height: 2.5rem;
+    width: 7rem;
+    color: white;
+}
+
+.buttons .btn:hover{
+    color: black;
+    background-color: rgb(227, 226, 225);
+    box-shadow: 1px 5px 5px rgb(195, 195, 195);
+}
+
+.card:hover{
+    cursor: pointer;
+    box-shadow: 1px 15px 15px rgb(195, 195, 195);
+    height: 28.5rem;
+    width: 18.5rem;
+}
+
+.empty{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 15px;
+}
+
+.individualP{
+    margin: 10px 10px;
+    border-bottom:1px solid black ;
+    display: flex;
+    align-items: center;
+}
+.cartTitle{
+    padding-left: 100px;
+    padding-top: 20px;
+}
+
+.individualP p{
+    font-size: 20px;
+}
+
+.individualP button{
+    border: none;
+    background-color: rgba(33, 46, 77, 0.84);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.cartPrice {
+    font-weight: 700;
+    padding-left: 100px;
+    
+}
