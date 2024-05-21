@@ -13,9 +13,9 @@ function App() {
     <BrowserRouter>
       <Header/>
       <Routes>
-        <Route path='/' exact element={<List/>}/>
-        <Route path='/detail/:productId' element={<Details/>}/>
-        <Route path='/cart/:productId' element={<Cart/>}/>
+        <Route path='/redux/' exact element={<List/>}/>
+        <Route path='/redux/detail/:productId' element={<Details/>}/>
+        <Route path='/redux/cart/:productId' element={<Cart/>}/>
       </Routes>
       </BrowserRouter>
     </>

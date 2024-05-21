@@ -25,7 +25,7 @@ const Product = () => {
             <p className="card-text">
             </p>
             <div className="buttons">
-            <Link to={`/detail/${id}`} >
+            <Link to={`/redux/detail/${id}`} >
               <div className="btn">Show More</div>
              
             </Link>

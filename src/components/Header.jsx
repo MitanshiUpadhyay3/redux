@@ -21,7 +21,7 @@ const Header = () => {
 
         
         <div className="mt-2 mx-3">
-          <Link to="/cart/:productId">
+          <Link to="/redux/cart/:productId">
             <i
               class="fa-solid fa-shopping-cart"
               style={{ color: "black", fontSize: "35px", position: "relative" }}
